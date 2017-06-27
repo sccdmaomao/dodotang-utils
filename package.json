@@ -1,0 +1,23 @@
+{
+  "name": "dodotang-utils",
+  "version": "1.0.0",
+  "description": "Pings https://dodotang-server.herokuapp.com/ every 5 mintues to prevent falling sleep",
+  "main": "keepAwake.js",
+  "scripts": {
+	"start": "node keepAwake.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sccdmaomao/dodotang-utils.git"
+  },
+  "author": "Guohao Yan",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sccdmaomao/dodotang-utils/issues"
+  },
+  "homepage": "https://github.com/sccdmaomao/dodotang-utils#readme",
+  "dependencies": {
+    "moment": "^2.18.1"
+  }
+}
